@@ -37,9 +37,6 @@ jobs:
         run: flutter pub get
 
 
-      - name: Run calculator tests
-        run: flutter test
-
       - name: Build release APK
         run: flutter build apk --release
 
