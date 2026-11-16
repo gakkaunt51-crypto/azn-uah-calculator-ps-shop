@@ -46,7 +46,7 @@ jobs:
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: AZN-UAH-Calculator-1.2.0-Android-APK
+          name: AZN-UAH-Calculator-1.3.0-Android-APK
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
           retention-days: 14
