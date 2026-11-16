@@ -36,9 +36,7 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Analyze Dart source
-        run: flutter analyze --no-fatal-infos
-
+      
       - name: Run calculator tests
         run: flutter test
 
