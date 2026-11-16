@@ -429,7 +429,7 @@ class FintechAmountPainter extends CustomPainter {
       canvas.drawCircle(const Offset(39,37),7.5,Paint()..color=const Color(0xFFFFD76A));
       final tp=TextPainter(text:const TextSpan(text:'₴',style:TextStyle(color:Color(0xFF9B6419),fontSize:11,fontWeight:FontWeight.w900)),textDirection:TextDirection.ltr)..layout();
       tp.paint(canvas,const Offset(35,30));
-      canvas.drawLine(const Offset(13,21),const Offset(31,21),Paint()..color=const Color(0xFFB8FFD1)..strokeWidth:1.5..strokeCap=StrokeCap.round);
+      canvas.drawLine(const Offset(13,21),const Offset(31,21),Paint()..color=const Color(0xFFB8FFD1)..strokeWidth=1.5..strokeCap=StrokeCap.round);
     }
     canvas.restore();
   }
@@ -460,7 +460,7 @@ class CountryFlagPainter extends CustomPainter {
       star.close();canvas.drawPath(star,Paint()..color=Colors.white);
     }
     canvas.restore();
-    canvas.drawRRect(r,Paint()..color=const Color(0x55FFFFFF)..style=PaintingStyle.stroke..strokeWidth:.6);
+    canvas.drawRRect(r,Paint()..color=const Color(0x55FFFFFF)..style=PaintingStyle.stroke..strokeWidth=.6);
   }
   @override bool shouldRepaint(covariant CountryFlagPainter old)=>old.country!=country;
 }
