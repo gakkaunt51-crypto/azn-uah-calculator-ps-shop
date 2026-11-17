@@ -1,4 +1,4 @@
-# AZN → UAH Calculator for Android — 1.2.2
+# AZN → UAH Calculator for Android — 1.3
 
 Исходный Flutter/Dart-проект приложения с палитрой из 50 тем: 20 однотонных и 30 градиентных. Выбор темы сохраняется между запусками.
 
